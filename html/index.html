@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Event Click JS</title>
+</head>
+<body>
+    <header class="container__header">
+        <section class="container__header-promo">
+            <p>PROMOTIONS EXCLUSIVES POUR NOEL : -15% avec le CODE : NOEL15</p>
+        </section>
+        <section class="container__header-img">
+            <img class="container__header-img-logo" src="../image/logo.jpg" alt="logo de marque de clavier">
+        </section>
+    </header>
+    
+    <main class="container__main">
+        <section class="container__main-left">
+            <div class="container__main-left-img" id ="changeClass">
+
+            </div>
+        </section>
+        <section class="container__main-right">
+            <h1 class="container__main-right-title">Clavier gamer 60% rgb</h1>
+            <div class="container__main-right-infos">
+                <p class="container__main-right-infos-price">99,99€</p>
+                <p class="container__main-right-infos-noprice"><strike>159,99€</strike></p>
+                <span class="container__main-right-infos-promo">-38%</span>
+            </div>
+            <div class="container__main-right-btn">
+                <h2 class="container__main-right-btn-title">Switchs : <span id="nameChoiceColor"></span></h2>
+                <div class="container__main-right-btn-btnchoice" id="btnChoice">
+                    <button class="choice" type="button" value="Multicolor">Clavier Standard</button>
+                    <button class="choice" type="button" value="Rouge">Clavier Rouge</button>
+                    <button class="choice" type="button" value="Bleu">Clavier Bleu</button>
+                    <button class="choice" type="button" value="Vert">Clavier Vert</button>
+                    <button class="choice" type="button" value="Orange">Clavier Orange</button>
+                    <button class="choice" type="button" value="Violet">Clavier Violet</button>
+                </div>
+            </div>
+            <div class="container__main-right-buy">
+                <button class="noir" type="button">Ajouter au panier</button>
+                <button class="rose" type="button">Acheter maintenant</button>
+            </div>
+        </section>
+        <script src="../js/app.js"></script>
+    </main>
+</body>
+</html>

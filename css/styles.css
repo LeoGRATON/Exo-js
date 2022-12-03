@@ -1,0 +1,128 @@
+/* GLOBAL STYLES */
+body{
+    font-family: 'DM Sans', sans-serif;
+}
+.choice{
+    border: #B7B7B7 2px solid;
+    padding: 0.9rem;
+    border-radius: 0.7rem;
+    background-color: transparent;
+    color: #B7B7B7;
+}
+.choice:hover{
+    border: black 2px solid;
+    padding: 0.9rem;
+    border-radius: 0.7rem;
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+}
+.noir{
+    width: 100%;
+    border: none;
+    background-color: black;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    padding: 1.2rem 0;
+    color: white;
+    border-radius: 0.9rem;
+    margin-bottom: 0.7rem;
+}
+.noir:hover{
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+}
+.rose{
+    width: 100%;
+    border: none;
+    background-color: #F00E5A;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    padding: 1.2rem 0;
+    color: white;
+    border-radius: 0.9rem;
+}
+.rose:hover{
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+}
+
+/* HEADER */
+.container__header{
+    height: 25vh;
+}
+.container__header-promo{
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 1rem 2rem;
+    text-align: center;
+}
+.container__header-img{
+    padding: 1.8rem 3rem;
+    background-color: black;
+}
+.container__header-img-logo{
+    display: block;
+    margin: auto;
+}
+
+/* MAIN */
+.container__main{
+    display: flex;
+    justify-content: center;
+}
+.container__main-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 4rem;
+}
+.container__main-left{
+    display: flex;
+    align-content: center;
+}
+.container__main-left-img{
+    background-image: url(../image/clavier.jpg);
+    width: 650px;
+    height: 650px;
+}
+.container__main-right-title{
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 0.08rem;
+    text-transform: uppercase;
+    margin: 1rem 0;
+}
+.container__main-right-infos{
+    display: flex;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: black 2px solid;
+    align-items: flex-end;
+}
+.container__main-right-infos-price{
+    font-size: 22px;
+    color: #F00E5A;
+    padding-right: 2rem;
+}
+.container__main-right-infos-noprice{
+    font-size: 0.8rem;
+    padding-right:2rem;
+}
+.container__main-right-infos-promo{
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #F00E5A;
+    color: white;
+    padding: 0.4rem;
+}
+.container__main-right-btn{
+    margin: 1.5rem 0;
+}
+.container__main-right-btn-btnchoice{
+    margin: 0.7rem 0;
+}
